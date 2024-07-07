@@ -1,72 +1,72 @@
-
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
+  }
 
+  nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    align-items: center;
+    
+  }
+  nav li a{
+    text-decoration: none;
+    font-size: 20px;
+  }
 
-nav{
+nav ul{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0px 200px;
+
 }
 
-
-.text-primary{
-   color: #FD6E0A;
+.logo-text{
+    font-size: 45px;
+    font-weight: 700;
 }
 
-.btn-primar{
-    background-color:#FD6E0A;
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
-    border: none;
+.logo-color{
+    color: brown;
+}
+
+nav li a{
+    color: black;
+}
+
+.btn-main{
+    background-color: brown;
     padding: 18px 30px;
+    color: white;
+    border: none;
     border-radius: 5px;
 }
 
-.dark-2{
-    color: #474747;
-}
-
-.nav-title{
-    font-weight: 800px;
-    font-size: 50px;
-    
-
-}
-
-nav ul{
-
+.banner{
     display: flex;
     align-items: center;
-    
-}
-nav ul li {
-  
-  list-style: none;
-  margin-right: 50px;
-  
+    margin: 0 30px 0 200px;
+    justify-content: space-between;
 }
 
-ul li a{
-    text-decoration: none;
-    font-size: 20px;
+.banner-img{
+    max-height: 676px;
+    max-width: 584px;
 }
 
 
-/* banner style */
-.banner-greetings{
-    font-size: 45px;
-    font-weight: 600px;
-}
 
-.banner-title{
-    font-weight: bold;
-    font-size: 70px;
+.header{
+    background-image: url(/assets/images/developer.png), url(/assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
 }
